@@ -1,4 +1,4 @@
-## Projeto de Rastreamento de Captura de Frutos do Mar
+# Projeto de Rastreamento de Captura de Frutos do Mar
 
 Este projeto utiliza um ESP32, um módulo RTC DS3231 e sensores para registrar e monitorar a captura de frutos do mar. Ele visa melhorar a transparência, segurança alimentar e sustentabilidade na cadeia de fornecimento de frutos do mar, fornecendo informações precisas e imutáveis sobre cada evento de captura.
 
@@ -37,25 +37,7 @@ Este projeto visa criar uma solução de rastreamento que registre a data, hora 
 
 ## Montagem no Simulador Wokwi
 
-```
-           +--------------+
-           |    ESP32     |
-           |              |
-           |        GND --|---------------------+
-           |        3V3 --|----+                |
-           |       GPIO21--|----|----------------|----+
-           |       GPIO22--|----|----------------|    |
-           |              |    |                |    |
-           +--------------+   SDA              SCL   |
-                                    +----------+     |
-                                    |  RTC DS3231    |
-                                    |                |
-                                    |  SDA  ---|-----+
-                                    |  SCL  ---|-----+
-                                    |  GND  ---|----+
-                                    |  VCC  ---|----+
-                                    +----------+
-```
+<img src="wokwi-img">
 
 - **Botão de Push:** Conecte um pino ao pino digital GPIO23 do ESP32 e o outro ao GND.
 
