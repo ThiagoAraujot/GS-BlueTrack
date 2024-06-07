@@ -37,6 +37,8 @@ Este projeto visa criar uma solução de rastreamento que registre a data, hora 
 
 ## Montagem no Simulador Wokwi
 
+[Clique Aqui para ver o projeto no Wokwi](https://wokwi.com/projects/399162520222392321)
+
 <img src="wokwi-img">
 
 - **Botão de Push:** Conecte um pino ao pino digital GPIO23 do ESP32 e o outro ao GND.
